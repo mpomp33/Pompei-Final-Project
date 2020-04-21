@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053550252416BF6F00F22313 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053550242416BF6F00F22313 /* AppDelegate.swift */; };
+		053550272416BF6F00F22313 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053550262416BF6F00F22313 /* SceneDelegate.swift */; };
+		053550292416BF6F00F22313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053550282416BF6F00F22313 /* ViewController.swift */; };
+		0535502C2416BF6F00F22313 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0535502A2416BF6F00F22313 /* Main.storyboard */; };
+		0535502E2416BF7100F22313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0535502D2416BF7100F22313 /* Assets.xcassets */; };
+		053550312416BF7100F22313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0535502F2416BF7100F22313 /* LaunchScreen.storyboard */; };
+		0535503C2416BF7100F22313 /* Pompei_Homework_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0535503B2416BF7100F22313 /* Pompei_Homework_4Tests.swift */; };
+		053550472416BF7100F22313 /* Pompei_Homework_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053550462416BF7100F22313 /* Pompei_Homework_4UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		053550382416BF7100F22313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053550192416BF6F00F22313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053550202416BF6F00F22313;
+			remoteInfo = "Pompei Homework 4";
+		};
+		053550432416BF7100F22313 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053550192416BF6F00F22313 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053550202416BF6F00F22313;
+			remoteInfo = "Pompei Homework 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		053550212416BF6F00F22313 /* Pompei Homework 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pompei Homework 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053550242416BF6F00F22313 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		053550262416BF6F00F22313 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		053550282416BF6F00F22313 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0535502B2416BF6F00F22313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0535502D2416BF7100F22313 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		053550302416BF7100F22313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		053550322416BF7100F22313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053550372416BF7100F22313 /* Pompei Homework 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pompei Homework 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0535503B2416BF7100F22313 /* Pompei_Homework_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pompei_Homework_4Tests.swift; sourceTree = "<group>"; };
+		0535503D2416BF7100F22313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053550422416BF7100F22313 /* Pompei Homework 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pompei Homework 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		053550462416BF7100F22313 /* Pompei_Homework_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pompei_Homework_4UITests.swift; sourceTree = "<group>"; };
+		053550482416BF7100F22313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0535501E2416BF6F00F22313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053550342416BF7100F22313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535503F2416BF7100F22313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		053550182416BF6F00F22313 = {
+			isa = PBXGroup;
+			children = (
+				053550232416BF6F00F22313 /* Pompei Homework 4 */,
+				0535503A2416BF7100F22313 /* Pompei Homework 4Tests */,
+				053550452416BF7100F22313 /* Pompei Homework 4UITests */,
+				053550222416BF6F00F22313 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		053550222416BF6F00F22313 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053550212416BF6F00F22313 /* Pompei Homework 4.app */,
+				053550372416BF7100F22313 /* Pompei Homework 4Tests.xctest */,
+				053550422416BF7100F22313 /* Pompei Homework 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		053550232416BF6F00F22313 /* Pompei Homework 4 */ = {
+			isa = PBXGroup;
+			children = (
+				053550242416BF6F00F22313 /* AppDelegate.swift */,
+				053550262416BF6F00F22313 /* SceneDelegate.swift */,
+				053550282416BF6F00F22313 /* ViewController.swift */,
+				0535502A2416BF6F00F22313 /* Main.storyboard */,
+				0535502D2416BF7100F22313 /* Assets.xcassets */,
+				0535502F2416BF7100F22313 /* LaunchScreen.storyboard */,
+				053550322416BF7100F22313 /* Info.plist */,
+			);
+			path = "Pompei Homework 4";
+			sourceTree = "<group>";
+		};
+		0535503A2416BF7100F22313 /* Pompei Homework 4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0535503B2416BF7100F22313 /* Pompei_Homework_4Tests.swift */,
+				0535503D2416BF7100F22313 /* Info.plist */,
+			);
+			path = "Pompei Homework 4Tests";
+			sourceTree = "<group>";
+		};
+		053550452416BF7100F22313 /* Pompei Homework 4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				053550462416BF7100F22313 /* Pompei_Homework_4UITests.swift */,
+				053550482416BF7100F22313 /* Info.plist */,
+			);
+			path = "Pompei Homework 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053550202416BF6F00F22313 /* Pompei Homework 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0535504B2416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4" */;
+			buildPhases = (
+				0535501D2416BF6F00F22313 /* Sources */,
+				0535501E2416BF6F00F22313 /* Frameworks */,
+				0535501F2416BF6F00F22313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pompei Homework 4";
+			productName = "Pompei Homework 4";
+			productReference = 053550212416BF6F00F22313 /* Pompei Homework 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		053550362416BF7100F22313 /* Pompei Homework 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0535504E2416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4Tests" */;
+			buildPhases = (
+				053550332416BF7100F22313 /* Sources */,
+				053550342416BF7100F22313 /* Frameworks */,
+				053550352416BF7100F22313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053550392416BF7100F22313 /* PBXTargetDependency */,
+			);
+			name = "Pompei Homework 4Tests";
+			productName = "Pompei Homework 4Tests";
+			productReference = 053550372416BF7100F22313 /* Pompei Homework 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		053550412416BF7100F22313 /* Pompei Homework 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 053550512416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4UITests" */;
+			buildPhases = (
+				0535503E2416BF7100F22313 /* Sources */,
+				0535503F2416BF7100F22313 /* Frameworks */,
+				053550402416BF7100F22313 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				053550442416BF7100F22313 /* PBXTargetDependency */,
+			);
+			name = "Pompei Homework 4UITests";
+			productName = "Pompei Homework 4UITests";
+			productReference = 053550422416BF7100F22313 /* Pompei Homework 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053550192416BF6F00F22313 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Michael David Pompei";
+				TargetAttributes = {
+					053550202416BF6F00F22313 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					053550362416BF7100F22313 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 053550202416BF6F00F22313;
+					};
+					053550412416BF7100F22313 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 053550202416BF6F00F22313;
+					};
+				};
+			};
+			buildConfigurationList = 0535501C2416BF6F00F22313 /* Build configuration list for PBXProject "Pompei Homework 4" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 053550182416BF6F00F22313;
+			productRefGroup = 053550222416BF6F00F22313 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053550202416BF6F00F22313 /* Pompei Homework 4 */,
+				053550362416BF7100F22313 /* Pompei Homework 4Tests */,
+				053550412416BF7100F22313 /* Pompei Homework 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0535501F2416BF6F00F22313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053550312416BF7100F22313 /* LaunchScreen.storyboard in Resources */,
+				0535502E2416BF7100F22313 /* Assets.xcassets in Resources */,
+				0535502C2416BF6F00F22313 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053550352416BF7100F22313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053550402416BF7100F22313 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0535501D2416BF6F00F22313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053550292416BF6F00F22313 /* ViewController.swift in Sources */,
+				053550252416BF6F00F22313 /* AppDelegate.swift in Sources */,
+				053550272416BF6F00F22313 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		053550332416BF7100F22313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0535503C2416BF7100F22313 /* Pompei_Homework_4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0535503E2416BF7100F22313 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053550472416BF7100F22313 /* Pompei_Homework_4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		053550392416BF7100F22313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053550202416BF6F00F22313 /* Pompei Homework 4 */;
+			targetProxy = 053550382416BF7100F22313 /* PBXContainerItemProxy */;
+		};
+		053550442416BF7100F22313 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053550202416BF6F00F22313 /* Pompei Homework 4 */;
+			targetProxy = 053550432416BF7100F22313 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0535502A2416BF6F00F22313 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0535502B2416BF6F00F22313 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0535502F2416BF7100F22313 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				053550302416BF7100F22313 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		053550492416BF7100F22313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0535504A2416BF7100F22313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0535504C2416BF7100F22313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0535504D2416BF7100F22313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0535504F2416BF7100F22313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pompei Homework 4.app/Pompei Homework 4";
+			};
+			name = Debug;
+		};
+		053550502416BF7100F22313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pompei Homework 4.app/Pompei Homework 4";
+			};
+			name = Release;
+		};
+		053550522416BF7100F22313 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pompei Homework 4";
+			};
+			name = Debug;
+		};
+		053550532416BF7100F22313 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Pompei Homework 4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Pompei-Homework-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pompei Homework 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0535501C2416BF6F00F22313 /* Build configuration list for PBXProject "Pompei Homework 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053550492416BF7100F22313 /* Debug */,
+				0535504A2416BF7100F22313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0535504B2416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535504C2416BF7100F22313 /* Debug */,
+				0535504D2416BF7100F22313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0535504E2416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0535504F2416BF7100F22313 /* Debug */,
+				053550502416BF7100F22313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		053550512416BF7100F22313 /* Build configuration list for PBXNativeTarget "Pompei Homework 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				053550522416BF7100F22313 /* Debug */,
+				053550532416BF7100F22313 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053550192416BF6F00F22313 /* Project object */;
+}
