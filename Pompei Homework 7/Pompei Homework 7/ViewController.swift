@@ -38,10 +38,6 @@ startlocation = nil
 }
 
 
-}
-
-
-
 
 
 
